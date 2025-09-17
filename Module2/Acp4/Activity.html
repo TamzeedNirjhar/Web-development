@@ -3,18 +3,33 @@
     <head>
         <title>Background Effects</title>
         <style>
-            body{
+            body {
                 background-image: url("R.jpeg");
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-position: center;
                 background-size: cover;
             }
-            p{
+        
+            p {
                 background-color: aqua;
             }
-            h1{
+        
+            h1 {
                 background-color: aquamarine;
+            }
+            #graid1{
+                height:200px;
+                background: linear-gradient(to top right, red, rgb(255, 255, 255));
+            }
+            #graid2{
+                height: 200px;
+                background: radial-gradient(pink,red,yellow)
+
+            }
+            #three{
+                background-image: url(R.jpeg);
+                background-size: 200px;
             }
             
         </style>
@@ -28,8 +43,11 @@
             <h1>CSS</h1>
             <p>Today we are learning HTML</p>
         </div>
-        <div>
+        <div id="three">
+            <h1>CSS</h1>
+            <p>Today we are learning HTML</p>
             
         </div>
+
     </body>
 </html>
