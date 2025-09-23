@@ -1,0 +1,40 @@
+/*Attribute Selectors*/
+input[Type="Text"] {
+    border-color: rgb(249, 5, 249);
+}
+/*Child Selectors*/
+ul>li {
+    color: brown;
+}
+
+/*Sibling Selectors*/
+h1+p {
+    background-color: bisque;
+}
+
+/*Hover*/
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+/*nth child*/
+li:nth-child(2) {
+    background-color: rgb(0, 60, 255);
+}
+
+#heading::before {
+    content: "🐦";
+}
+#heading::after {
+content:"🌵";
+}
+
+#para::after {
+    content: "🌟";
+}
+
+#para::first-letter {
+    font-weight: 200;
+    font-size: 50px;
+    color: rgb(0, 255, 136);
+}
