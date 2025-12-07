@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Scope of variable</h1>
+        <p id="mul"></p>
+        <p id="demo"></p>
+
+        <script>
+            var y = 10 //global variable
+
+            function mul(){
+                var x = 20
+                var result = x*y;
+                document.getElementById("mul").innerHTML = "the multiplication of x and y is: " + result;
+            }
+            mul()
+            document.getElementById("demo").innerHTML = x;
+        </script>
+    </body>
+</html>
