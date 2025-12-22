@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h2>Javascript Array</h2>
+        <p id="fruits"></p>
+
+        <script>
+            var fruits = ["Apple","Banana","Orange","Jackfruit","Melon"]
+
+            //display all elements
+            document.getElementById("fruits").innerHTML = fruits
+
+            //Accessing only one element
+            document.write(fruits[4])
+
+            //join the elements of array by a separator
+            document.write("<br><br>" + fruits.join("-"))
+
+            //popping an element from the array
+            fruits.pop();
+            document.write("<br><br>" + fruits)
+        </script>
+    </body>
+</html>
