@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h2>Earth</h2>
+    <p id="demo"></p>
+
+    <script>
+        //create object
+        var planet = {
+            name: "Earth",
+            age: 4 ,
+            shape: "round",
+            condition: "life,oxygen,water and trees etc",
+            person:"humans",
+            condition2:"71% of water"
+
+        }
+        document.getElementById("demo")
+            .innerHTML = "Our planet's name is  " + planet.name + " . It is over  " + planet.age + " billon years old and It is " + planet.shape + " . It has  " + planet.condition + "." + " It is the only habitable planet for " + planet.person + "." + " It is " + planet.condition2 + " and rest of it is land."
+    </script>
+</body>
+
+</html>
