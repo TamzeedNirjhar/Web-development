@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h1>Short paragraph on Mercury</h1>
+    <p id="demo"></p>
+    <p id="solar"></p><br><br>
+    <h1>Planets of the solar system.</h1>
+    <script>
+        //create object
+        var star = {
+            name: "Mercury",
+            age: 4.50,
+            shape: "round",
+            condition: "hot",
+            condition2: "  surface of Mercury is similar to Earth's Moon, being heavily cratered, with an expansive rupes system generated from thrust faults, and bright ray systems, formed by ejecta."
+
+        }
+        document.getElementById("demo")
+            .innerHTML = "The solar system's first planet is   " + star.name + " . It is over  " + star.age + " billon years old and It is " + star.shape + " . It is  " + star.condition + "." + " The " + star.condition2
+
+        var solar = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+
+
+        //join the elements of array by a separator
+        document.write("<br><br>" + solar.join("*"))
+
+        //popping an element from the array
+        solar.pop();
+        document.write("<br><br>" + solar)
+    </script>
+</body>
+
+</html>
